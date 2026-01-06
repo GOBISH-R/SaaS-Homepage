@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #f1f5f9;
-    color: #0f172a;
+    background-color: #0b0f14;
+    color: #e5e7eb;
     line-height: 1.6;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .navbar {
-    background: #ffffff;
-    border-bottom: 1px solid #e5e7eb;
+    background: #0b0f14;
+    border-bottom: 1px solid #1f2933;
 }
 
 .navbar .container {
@@ -32,17 +32,22 @@ body {
 .logo {
     font-size: 22px;
     font-weight: 600;
+    color: #ffffff;
 }
 
 nav a {
     margin-right: 20px;
     text-decoration: none;
-    color: #334155;
+    color: #cbd5e1;
     font-size: 15px;
 }
 
+nav a:hover {
+    color: #ffffff;
+}
+
 .btn-primary {
-    background: #2563ebff;
+    background: #2563eb;
     color: white;
     border: none;
     padding: 10px 18px;
@@ -59,18 +64,14 @@ nav a {
 }
 
 .hero {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: white;
+    background: linear-gradient(135deg, #020617, #0f172a);
     padding: 120px 20px;
-}
-
-.hero-content {
-    max-width: 700px;
 }
 
 .hero h2 {
     font-size: 40px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .hero p {
@@ -83,13 +84,13 @@ nav a {
     text-align: center;
     font-size: 28px;
     margin-bottom: 50px;
+    color: #ffffff;
 }
 
 .features {
-    background: white;
+    background: #0b0f14;
     padding: 80px 0;
 }
-
 
 .feature-grid {
     display: grid;
@@ -98,12 +99,23 @@ nav a {
 }
 
 .feature-card {
-    background: #f8fafc;
+    background: #111827;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 14px;
+    border: 1px solid #1f2937;
+}
+
+.feature-card h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #9ca3af;
 }
 
 .pricing {
+    background: #0b0f14;
     padding: 80px 0;
 }
 
@@ -115,12 +127,16 @@ nav a {
 }
 
 .price-card {
-    background: white;
+    background: #111827;
     padding: 35px;
     width: 260px;
     text-align: center;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    border: 1px solid #1f2937;
+}
+
+.price-card h4 {
+    color: #ffffff;
 }
 
 .featured {
@@ -130,5 +146,6 @@ nav a {
 .price {
     font-size: 36px;
     margin: 15px 0;
+    color: #ffffff;
 }
 
